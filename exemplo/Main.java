@@ -1,4 +1,4 @@
-package minitest5;
+package exemplo;
 
 import java.util.HashMap;
 
@@ -26,8 +26,7 @@ public class Main {
 	//Ex: Para cadastrar um funcionario que tem como identificador único a String pis. 
 	// funcionarios.put(pis, funcionario);
 	private static void cadastrarAluno(String nome, String matricula, String email) {
-		Aluno aluno = criaAluno(nome, matricula, email);
-		alunos.put(matricula, aluno);
+
 		
 	}
 	// remova um aluno do mapa. Esse método é solucionado com apenas uma linha de código.
@@ -45,8 +44,3 @@ public class Main {
 	}
 	//exibe um determindado aluno cadastrado. Com apenas uma linha de codigo.
 	private static String recuperaAluno(String matricula) {
-	
-		
-	}
-	
-}
